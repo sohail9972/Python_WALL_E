@@ -19,7 +19,9 @@ var = driver.find_element(By.XPATH , "//button[normalize-space()='Products']")
 var.click()
 
 components = driver.find_elements(By.XPATH, "//ul[@id='cloud-infrastructure']//li")
+# b=list[components]
 time.sleep(10)
 a=len(components)
 print(a)
+
 print(len(driver.find_elements(By.XPATH, "//ul[@id='cloud-infrastructure']//li")))
