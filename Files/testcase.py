@@ -9,11 +9,11 @@ print("The input string is:", myStr)
 print("The substring is:", substring)
 print("The output string is:", output_string)
 
-    str1= i + str1
-if(str1==str):
-    print("palimdrome")
-else:
-    print("not palimdrome")
+    # str1= i + str1
+# if(str1==str):
+#     print("palimdrome")
+# else:
+#     print("not palimdrome")
 #
 
 
